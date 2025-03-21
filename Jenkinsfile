@@ -16,18 +16,6 @@ pipeline {
     }
     stages {
 
-        stage('Checkout Payara6') {
-            steps {
-                script {
-                    checkout changelog: false, poll: true, scm: [$class: 'GitSCM',
-                    branches: [[name: "Payara6"]],
-                    doGenerateSubmoduleConfigurations: false,
-                    extensions: [], 
-                    submoduleCfg: [],
-                    userRemoteConfigs: [[credentialsId: 'payara-devops-github-personal-access-token-as-username-password', url:"https://github.com/payara/monitoring-console.git"]]]
-                }
-            }
-        }
         stage('Build') {
             steps {
                 script {
