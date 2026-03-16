@@ -49,7 +49,7 @@
     </parent>
         
     <artifactId>monitoring-console-webapp</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>3.0.1-SNAPSHOT</version>
 
     <packaging>war</packaging>
 
@@ -67,7 +67,7 @@
         <dependency>
             <groupId>fish.payara.monitoring-console</groupId>
             <artifactId>monitoring-console-process</artifactId>
-            <version>3.0.0-SNAPSHOT</version>
+            <version>3.0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 

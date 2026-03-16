@@ -51,7 +51,7 @@
         
     <artifactId>monitoring-console-process</artifactId>
     <name>monitoring-console-process</name>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>3.0.1-SNAPSHOT</version>
     
     <description>
         This module contains the main library of the monitoring console that runs the monitoring proccessing
