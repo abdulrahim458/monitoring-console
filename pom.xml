@@ -43,7 +43,7 @@
 
     <groupId>fish.payara.monitoring-console</groupId>
     <artifactId>parent</artifactId>
-    <version>8.0.0</version>
+    <version>3.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Payara Monitoring Console Parent</name>
